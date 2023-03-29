@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/Zowiezo/mixtelematics/issues"
   },
-  "homepage": "https://github.com/Zowiezo/mixtelematics#readme"
+  "homepage": "https://github.com/Zowiezo/mixtelematics#readme",
+  "dependencies": {
+    "pnpm": "^8.0.0",
+    "uikit": "^3.16.13"
+  }
 }

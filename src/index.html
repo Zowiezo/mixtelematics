@@ -6,56 +6,311 @@
     <title>Mixtelematics || Zowie </title>
     <!-- UIkit CSS -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.10/dist/css/uikit.min.css" />
+      <link rel="stylesheet" href="./style.css">
     <!-- UIkit JS -->
       <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.10/dist/js/uikit.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.10/dist/js/uikit-icons.min.js"></script>
   </head>
 <body>
-	
-  <!-- Top LOGO AND NAVIGATION -->
-  <nav class="uk-navbar-container uk-navbar uk-container uk-navbar-transparent uk-navbar-sticky">
-    <div class="uk-navbar-left">
-      <a class="uk-navbar-item uk-logo" href="#"><img src="./images/mix-logo.png" width="260" height="38" /></a>
-      <a class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#offcanvas" uk-toggle></a>
-    </div>
-      <div class="uk-navbar-left uk-visible@m">
-        <ul class="uk-navbar-nav uk-visible@m">
-          <li><a href="#">SOLUTIONS</a></li>
-          <li><a href="#">PRODUCTS</a></li>
-          <li><a href="#">VALUE ADDED SERVICES</a></li>
-          <li><a href="#">INDUSTRIES</a></li>
-          <li><a href="#">RESOURCES</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">CONTACT</a></li>
-          <li><a href="#">LOGIN</a></li>
-        </ul>
-      </div>
 
-<!-- SEARCH BAR -->
-      <div class="uk-navbar-right">
-        <div>
+<!-- Top LOGO AND NAVIGATION -->
+  <div class="page-wrap uk-margin-large-bottom uk-margin-top">
+    <div class=" uk-margin-top uk-margin-bottom">
+      <div class="uk-position-top">
+        <nav class="uk-navbar-container uk-navbar-transparent">
+
+          <div class="uk-container">
+            <div uk-navbar>
+
+              <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                  <li>
+                  <a href="#">SOLUTIONS</a>
+                  <div class="uk-navbar-dropdown uk-border-rounded">
+                  <ul class="uk-nav uk-navbar-dropdown-nav">
+                    <li>
+                      <a href="#">Safety</a>
+                    </li>
+                    <li>
+                      <a href="#">Efficiency</a>
+                    </li>
+                    <li>
+                      <a href="#">Compliance</a>
+                    </li>
+                    <li>
+                      <a href="#">Security</a>
+                    </li>
+                    <li>
+                      <a href="#">Sustainability</a>
+                    </li>
+                  </li>
+                </ul>
+              </div>
+
+                    <li>
+                      <a href="#">PRODUCTS</a>
+                        <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2 uk-border-rounded">
+                          <div class="uk-drop-grid uk-child-width-1-2" uk-grid>
+                            <div>
+                              <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-nav-header">VEHICLE TELEMATICS & TRACKING</li>
+                                <li>
+                                  <a href="#">Premium & Essential Mix Fleet Manager</a>
+                                </li>
+                                <li>
+                                  <a href="#">GPS Tracking</a>
+                                </li>
+                                <li>
+                                  <a href="#">Mix Plug 'n Play</a>
+                                </li>
+                                  <hr class="uk-divider-small">
+                              </ul>
+                            </div>
+
+                            <div>
+                              <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-nav-header">DRIVER APPS</li>
+                                <li>
+                                  <a href="#">Electronic Works Diaries</a>
+                                </li>
+                                <li>
+                                  <a href="#">MYMix</a>
+                                </li>
+                                <li>
+                                  <a href="#">MyMix Tracking</a>
+                                </li>
+                                <hr class="uk-divider-small">
+                                </ul>
+                              </div>
+
+                              <div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-nav-header">PLATFORM OVERVIEW</li>
+                                <li>
+                                  <a href="#">Mix Fleet Manager</a>
+                                </li>
+                                <li>
+                                  <a href="#">Journey Management</a>
+                                </li>
+                                <li>
+                                  <a href="#">Hours of Service</a>
+                                </li>
+                                <hr class="uk-divider-small">
+                                </ul>
+                              </div>
+
+                              <div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-nav-header">AI VIDEO BASED SAFETY</li>
+                                <li>
+                                  <a href="#">AI Dash-cams</a>
+                                </li>
+                                <hr class="uk-divider-small">
+                                </ul>
+                              </div>
+
+                              <div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-nav-header">ASSET MONITORING</li>
+                                <li>
+                                  <a href="#">Asset Manager</a>
+                                </li>
+                                <hr class="uk-divider-small">
+                                </ul>
+                              </div>
+
+                              <div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-nav-header">KPI MANAGEMENT</li>
+                                <li>
+                                  <a href="#">KPI Dashboard</a>
+                                </li>
+                                <hr class="uk-divider-small">
+                                </ul>
+                              </div>
+
+                          </div>
+                        </div>
+                      </li>
+
+                          <li>
+                            <a href="#">VALUE ADDED SERVICES</a>
+                            <div class="uk-navbar-dropdown uk-border-rounded">
+                              <ul class="uk-nav uk-navbar-dropdown-nav">
+                              <li>
+                                <a href="#">Driver & In-Cab Coaching</a>
+                              </li>
+                              <li>
+                                <a href="#">Fringe Benefits Tax & Fuel Tax Credit</a>
+                              </li>
+                              <li>
+                                <a href="#">Chain of Responsibility & Data Integration</a>
+                              </li>
+                              <li>
+                                <a href="#">Mix Insight Agility</a>
+                              </li>
+                              <li>
+                                <a href="#">Satellite Communication</a>
+                              </li>
+                              </ul>
+                            </div>
+                          </li>
+
+                            <li><a href="#">INDUSTRIES</a>
+                              <div class="uk-navbar-dropdown uk-border-rounded">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                  <li>
+                                    <a href="#">Bus & Public Transport</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Transport & Logistics</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Food Delivery</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Courier Services</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Oil & Gas</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">MiningD</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Construction</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Agriculture</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Utilities</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Government</a>
+                                  </li>
+                              </ul>
+                              </div>
+                            </li>
+
+                            <li>
+                              <img class="uk-navbar-item uk-logo" href="#" src="./images/mix-logo.png" width="320" height="120" alt="Mix">
+                            </li>
+
+                            <li><a href="#">RESOURCES</a>
+                              <div class="uk-navbar-dropdown uk-border-rounded">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                  <li>
+                                    <a href="#">White Papers</a>
+                                  </li>
+                                <li>
+                                  <a href="#">Case Studies</a>
+                                </li>
+                                <li>
+                                  <a href="#">Latest News</a>
+                                </li>
+                                <li>
+                                  <a href="#">Press Office</a>
+                                </li>
+                                <li>
+                                  <a href="#">Newsletter</a>
+                                </li>
+                                <li>
+                                  <a href="#">Online Training</a>
+                                </li>
+                              </ul>
+                              </div>
+                            </li>
+
+                            <li><a href="#">ABOUT</a>
+                              <div class="uk-navbar-dropdown uk-border-rounded">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                  <li>
+                                    <a href="#">About Us</a>
+                                  </li>
+                                <li>
+                                  <a href="#">Leadership</a>
+                                </li>
+                                <li>
+                                  <a href="#">Corporate Governance</a>
+                                </li>
+                                <li>
+                                  <a href="#">Investor Relations</a>
+                                </li>
+                                <li>
+                                  <a href="#">Sens Announcements</a>
+                                </li>
+                                <li>
+                                  <a href="#">Awards</a>
+                                </li>
+                                <li>
+                                  <a href="#">Channel Partners</a>
+                                </li>
+                              </ul>
+                              </div>
+                            </li>
+
+                            <li><a href="#">CONTRACT</a>
+                              <div class="uk-navbar-dropdown uk-border-rounded">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                  <li>
+                                    <a href="#">General</a>
+                                  </li>
+                                <li>
+                                  <a href="#">Marketing & Media</a>
+                                </li>
+                                <li>
+                                  <a href="#">Sales & Products</a>
+                                </li>
+                                <li>
+                                  <a href="#">Customer Support</a>
+                                </li>
+                                <li>
+                                  <a href="#">Careers</a>
+                                </li>
+                              </ul>
+                              </div>
+                            </li>
+                              <li>
+                                  <a href="#">LOGIN</a>
+                              </li>
+
+                              <!-- SEARCH BAR -->
+        <div class="uk-navbar-right">
+          <div>
             <a class="uk-navbar-toggle" href="#" uk-search-icon></a>
             <div class="uk-navbar-dropdown uk-border-rounded" uk-drop="mode: click; cls-drop: uk-navbar-dropdown; boundary: !.uk-navbar; flip: false">
-                <div class="uk-grid-small uk-flex-middle" uk-grid>
-                    <div class="uk-width-expand">
-                        <form class="uk-search uk-search-navbar uk-width-1-1">
-                            <input class="uk-search-input" type="search" placeholder="Search" aria-label="Search" autofocus>
-                        </form>
-                    </div>
-                    <div class="uk-width-auto">
-                        <a class="uk-drop-close" href="#" uk-close></a>
-                    </div>
+              <div class="uk-grid-small uk-flex-middle" uk-grid>
+                <div class="uk-width-expand">
+                  <form class="uk-search uk-search-navbar uk-width-1-1">
+                    <input class="uk-search-input" type="search" placeholder="Search" aria-label="Search" autofocus>
+                  </form>
                 </div>
+                <div class="uk-width-auto">
+                  <a class="uk-drop-close" href="#" uk-close></a>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
     </div>
-  </nav>
+  </div>
+
   <main>
 
     <!-- HERO  -->
     <section>
-      <div class="uk-height-large uk-background-cover uk-overflow-hidden uk-dark uk-flex" style="background-image: url('./images/truck.jpeg');">
-        <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
+      <div class="uk-height-large uk-cover-container uk-overflow-hidden uk-dark uk-flex">
+        canvas width="400" height="auto"></canvas>
+        <img src="./images/truck.jpeg" uk-cover>
+        <div class="uk-width-1-2@m uk-text-center uk-margin-auto-vertical">
           <h1 class="uk-text-secondary" uk-parallax="y: -50,0; scale: 2,1;">Mix Fleet Manager<sup>TM</sup></h1>
           <p class="uk-text-secondary uk-text-left uk-padding uk-width-1-2@s" uk-parallax="scale: 2,1; ">Optimise your fleet and boost driver <br> safety with a proven telematics solution that works for you.</p>
         </div>
@@ -65,7 +320,7 @@
 
     <!-- SLIDES -->
     <section class="uk-section uk-section-default">
-      <h1 class="uk-text-center mb-3 uk-text-center"><strong>What can fleet telematics</strong> do for your business?</h1> 
+      <h1 class="uk-text-center mb-3 uk-text-center"><strong>What can fleet telematics</strong> do for your business?</h1>
         <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: true">
           <ul class="uk-slider-items uk-grid">
             <li class="uk-width-3-4">
@@ -119,10 +374,10 @@
                       </div>
                   </li>
               </ul>
-          
+
               <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
               <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-          
+
           </div>
 
   <!-- CUSTOMER SECTION -->
@@ -137,14 +392,14 @@
             <blockquote>
               <p class="uk-text-italic uk-text-center">"Our crash rates and associated repair and maintenance costs have dropped considerably,
                 ensuring a safer workplace."</p>
-              <footer class="white-footer"> 
+              <footer class="white-footer">
                 <cite class="uk-text-success uk-text-uppercase" title="MICHAEL BORG, MANAGING DIRECTOR">MICHAEL BORG, MANAGING DIRECTOR</cite>
               </footer>
-            </blockquote>       
+            </blockquote>
           </div>
       </div>
   </div>
-  
+
   <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
       <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
           <img class="uk-position-center" src="./images/Triunfo-logo.png" alt="" width="300">
@@ -153,10 +408,10 @@
         <div class="uk-card-body">
             <blockquote>
               <p class="uk-text-italic uk-text-center">"The telematics system provides the promise of safety and optimised operational cost, and in particular, speedy service to users. With this information, we can see our employees’ driving habits in more detail. For instance, we can know if an employee has exceeded the speed limit, if they have used harsh braking or acceleration, or even if they have used the vehicle speed limit device."</p>
-              <footer class="white-footer"> 
+              <footer class="white-footer">
                 <cite class="uk-text-success uk-text-uppercase" title="Marco Polo Clemente, Triunfo Concebra operation coordinator">Marco Polo Clemente, Triunfo Concebra operation coordinator</cite>
               </footer>
-            </blockquote>       
+            </blockquote>
           </div>
       </div>
   </div>
@@ -169,10 +424,10 @@
       <div class="uk-card-body">
           <blockquote>
             <p class="uk-text-italic uk-text-center">"We are also extremely pleased to see a 35% increase in drivers who meet ‘green’ driving standards."</p>
-            <footer class="white-footer"> 
+            <footer class="white-footer">
               <cite class="uk-text-success uk-text-uppercase" title="Dan Bassett, Operations Manager">Dan Bassett, Operations Manager</cite>
             </footer>
-          </blockquote>       
+          </blockquote>
         </div>
     </div>
   </div>
@@ -262,15 +517,15 @@
         <div>
           <div class="waving-text-wrap uk-margin-large-top" >
             <h2 class="class="uk-text-uppercase""><strong> Mix Journey Management</strong></h2>
-            <p>An alternative to paper-based systems, this wholly online fleet management <br> solution incorporates 
-              journey requests, journey approvals and journey monitoring.<br> MiX Journey Management is the first 
+            <p>An alternative to paper-based systems, this wholly online fleet management <br> solution incorporates
+              journey requests, journey approvals and journey monitoring.<br> MiX Journey Management is the first
               system to fully integrate with a premium <br>fleet manager system.</p>
             <a class="uk-button uk-button-primary uk-border-rounded" href="#">FIND OUT MORE</a>
           </div>
         </div>
 
       </div>
-    
+
   </section>
 
   <section class="uk-section">
@@ -320,5 +575,6 @@
 </div>
 </section>
 </main>
+</div>
 </body>
 </html>
