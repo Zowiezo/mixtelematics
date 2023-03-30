@@ -1,12 +1,111 @@
 :root {
   --uk-primary:#38AF2E;
   --uk-secondary: #ff9100;
+  /* background-color: #d4ffd065; */
 }
 
 .page-wrap {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.main {
+  text-shadow: 1px 1px 1px #cecece;
+  color: #000000;
+  font-weight: 300;
+
+}
+
+.text {
+  color: #000000;
+  text-shadow: 1px 1px 1px #ffffff;
+  font-weight: 200;
+}
+
+.contact {
+  background-color: #33B691;
+  color: #fff;
+  border-radius: 25px;
+}
+
+
+.customer {
+  background-color: #d9fff468;
+}
+
+.customers {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.quote {
+  color: #33B691;
+}
+
+.accordion-section {
+  margin-bottom: 60px;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.uk-accordion-title {
+  background-color: #50b848;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.accordion-title {
+  color: #fff;
+
+}
+
+.uk-background-cover {
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+.waving-text-wrap {
+  padding: 50px;
+}
+
+.waving-text-wrap h2,
+.waving-text-wrap h3,
+.waving-text-wrap h4 {
+  margin-top: 0;
+}
+
+.waving-text-wrap p {
+  margin-bottom: 30px;
+}
+
+.uk-button-primary {
+  background-color: #00b1d8;
+  color: #fff;
+  border-color: #00b1d8;
+}
+
+@media (max-width: 768px) {
+  .uk-child-width-1-2\@m {
+    grid-template-columns: 1fr !important;
+  }
+
+  .uk-text-center {
+    margin-bottom: 30px;
+  }
+
+  .uk-text-center img {
+    width: 100%;
+    height: auto;
+  }
+
+  .waving-text-wrap {
+    padding: 20px;
+  }
+
+  .uk-background-cover {
+    height: 250px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -32,10 +131,6 @@
 
 .uk-text-primary {
   color:var(--uk-primary);
-}
-
-.uk-text-secondary {
-  color: var(--uk-secondary);
 }
 
 .uk-margin-bottom {
@@ -67,6 +162,39 @@
 .uk-nav-header {
   font-size: 14px;
   font-weight: bold;
+}
+
+.hero:before {
+  content: "";
+  position: absolute;
+  top: 130px;
+  /* left: 1px; */
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #00102186,#005e8d49, #66ccff56, #9bd8f670, #def4ff70);
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.products {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.products-button {
+  border-radius: 25px;
+}
+
+.circle {
+  align-items: center;
+}
+
+hr {
+  border-color: #33B691;
+}
+
+.footer {
+  height: 20vw;
 }
 
 /* Media query for screens smaller than 640px */
